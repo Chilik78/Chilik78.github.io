@@ -1,0 +1,397 @@
+* 
+{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Навигация */
+.navigation
+{
+    left: 0;
+    top:0;
+    right: 0;
+    width: auto;
+    /* background-color: rgba(0, 0, 255, 0.705); */
+}
+
+.nav-list
+{
+padding: .5rem 1rem;
+width: auto;
+display:flex;
+justify-content:space-between;
+}
+
+.nav-list li
+{
+    margin: 0 80px;
+    margin-top: 4vh;
+    list-style-type:none;
+}
+
+.nav-list a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list a:hover
+{
+    text-decoration: underline;
+    color: blue;
+    text-decoration-color: blue;
+}
+
+.logo
+{
+    height: 15vh;
+}
+
+
+
+/* WEB+mobile+support */
+.content
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.btn--text
+{
+    display: flex;
+    position:fixed;
+    flex-direction: column;
+    margin-top: 40vh;
+    z-index: 5;
+    top:50vh;
+    margin-bottom: 18em;
+    min-height: 2em;
+    overflow: hidden;
+    width: 40%;
+}
+
+.development
+{
+    margin-left: 2rem;
+    font-size: 20px;
+    font-weight:300;
+}
+
+/* .application
+{
+    font-size: 15px;
+    font-weight:300;
+    outline: none;
+    border-radius: 20px;
+    border: 0px;
+    background-color: white;
+    height: 2.5rem;
+}
+
+.application:hover
+{
+    cursor: pointer;
+    color: white; 
+    background-color: blue;
+} */
+
+.btn-zayavka
+{
+    padding: 160px 160px 160px 160px;
+    position: sticky;
+    margin: -20px 0 0 -120px;
+    margin-top: -10rem;
+    margin-left: -4rem;
+}
+
+#buttonzaya
+{
+    text-transform: uppercase;
+    border-radius: 45px;
+    letter-spacing: 1.8px;
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+}
+
+/* WEB */
+.web-sites
+{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    height: 150vh;
+    /* background-color: blue; */
+    background-image: url(img/20943505.jpg);
+    background-size: cover;
+}
+
+.application
+{
+    text-align: center;
+    width: auto;
+}
+
+.WEB
+{
+    font-size: 40px;
+    width: 100%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* Mobile */
+
+.mobile
+{
+    background-image: url(img/App-Development-Illustration-1.jpg);
+    background-size: cover;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    height: 150vh;
+    margin-left: 200px;
+    /* background-color: red; */
+}
+
+/* Support */
+
+.support
+{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    height: 150vh;
+    /* background-color: orange; */
+    background-image: url(img/Na_Nov_02.jpg);
+    background-size: cover;
+    margin-left: 250px;
+}
+
+
+
+/* О нас (About team) */
+.SEKL
+{
+    height: 200vh;
+    font-weight: 300;
+    font-size: 60px;
+    /* background-color: brown; */
+    text-align: center;
+    color: blue;
+    background-image: url(img/default.svg);
+    background-position: center;
+}
+
+
+
+/* Проект */
+.Projects
+{
+    font-size: 60px;
+    height: 100vh;
+    /* background-color: gold; */
+    text-align: center;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: 0 auto;
+}
+
+.Project
+{
+    background-image: url(img/stena3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200vh;
+    left: 0;
+    right: 0;
+    /* background-size: 100vh;
+    background-size: 100%; */
+}
+
+.coming-soon
+{
+    font-size: 120px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.308) 6.7px 8px 2px;
+    /* animation: shadow 0s ease-out calc(1);
+    animation-iteration-count: calc(1); */
+}
+
+/* @keyframes shadow
+{
+    0%
+    {
+        text-shadow:none;
+    }
+    25%
+    {
+        text-shadow: rgba(0, 0, 0, 0.308) 1.165px 2px 0.5px;
+    }
+    50%
+    {
+        text-shadow: rgba(0, 0, 0, 0.308) 3.35px 4px 1px;
+    }
+    100%
+    {
+        text-shadow: rgba(0, 0, 0, 0.308) 6.7px 8px 2px;
+    }
+} */
+
+/* Услуги */
+.services
+{
+    height: 300vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color:lightblue; */
+    text-align: center;
+}
+
+.services-head
+{
+    margin-top: 0;
+    font-size: 40px;
+    height: 3vh;
+    z-index: 2;
+}
+
+.services-types
+{
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300vh;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* .services-types li
+{
+    display: flex;
+    height: 33.3vh;
+    align-items: center;
+} */
+
+.type-uslug
+{
+    width: 100%;
+    margin-left: 10px;
+    height: auto;
+}
+
+.services-web
+{
+    background-image: url(img/Creative\ mini\ designers\ changing\ website\ interface-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.services-e-commerce
+{
+    background-image: url(img/E-COMMERCE.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.services-mobile
+{
+    background-image: url(img/mobile-uslugi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Цены */
+/* .prices
+{
+    height: 100vh;
+    font-weight: 500;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.prices-head
+{
+    height: 3vh;
+}
+
+.prices-types
+{
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    text-align: left;
+} */
+
+/* Контакты */
+.contacts
+{
+    height: 200vh;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color:lightyellow; */
+    text-align: center;
+}
+
+.contacts-head
+{
+    height: 3vh;
+}
+
+.contacts-types
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 70vh;
+    height: 100%;
+    width: 100%;
+}
+
+.line
+{
+    border-left: 6px solid black;
+    height: 200px;
+    margin-top: -205vh;
+}
+
+/* Заявка */
+.statement
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    background-color: gray;
+}
+
+.statement-text
+{
+    margin-top: 50vh;
+}
