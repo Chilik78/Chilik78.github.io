@@ -61,7 +61,7 @@ justify-content:space-between;
 .btn--text
 {
     display: flex;
-    position:fixed;
+    position:sticky;
     flex-direction: column;
     margin-top: 40vh;
     z-index: 5;
@@ -123,9 +123,10 @@ justify-content:space-between;
     display: flex;
     align-items: center;
     height: 150vh;
-    /* background-color: blue; */
     background-image: url(img/20943505.jpg);
     background-size: cover;
+    position: relative;
+    margin-top: -50em;
 }
 
 .application
@@ -153,7 +154,6 @@ justify-content:space-between;
     align-items: center;
     height: 150vh;
     margin-left: 200px;
-    /* background-color: red; */
 }
 
 /* Support */
@@ -164,10 +164,10 @@ justify-content:space-between;
     display: flex;
     align-items: center;
     height: 150vh;
-    /* background-color: orange; */
     background-image: url(img/Na_Nov_02.jpg);
     background-size: cover;
     margin-left: 250px;
+    margin-top: -4em;
 }
 
 
@@ -178,7 +178,6 @@ justify-content:space-between;
     height: 200vh;
     font-weight: 300;
     font-size: 60px;
-    /* background-color: brown; */
     text-align: center;
     color: blue;
     background-image: url(img/default.svg);
@@ -192,7 +191,6 @@ justify-content:space-between;
 {
     font-size: 60px;
     height: 100vh;
-    /* background-color: gold; */
     text-align: center;
     max-width: 100%;
     max-height: 100vh;
@@ -243,11 +241,10 @@ justify-content:space-between;
 /* Услуги */
 .services
 {
-    height: 300vh;
+    height: 450vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* background-color:lightblue; */
     text-align: center;
 }
 
@@ -265,7 +262,7 @@ justify-content:space-between;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 300vh;
+    height: 450vh;
     width: 100%;
     text-align: left;
     margin-top: 20px;
@@ -290,7 +287,7 @@ justify-content:space-between;
     background-image: url(img/Creative\ mini\ designers\ changing\ website\ interface-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 150vh;
     width: auto;
     display: flex;
     align-items: center;
@@ -302,7 +299,7 @@ justify-content:space-between;
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     align-items: center;
 }
@@ -313,7 +310,7 @@ justify-content:space-between;
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
-    height: 100vh;
+    height: 150vh;
     display: flex;
     align-items: center;
 }
@@ -354,7 +351,6 @@ justify-content:space-between;
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* background-color:lightyellow; */
     text-align: center;
 }
 
