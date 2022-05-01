@@ -46,7 +46,7 @@ var b= document.querySelector('#blockbutton')
 
 b.onmouseover=function(e)
 {
-    document.getElementById('buttonzaya').style.backgroundColor='black'
+    document.getElementById('buttonzaya').style.backgroundColor='blue'
     document.getElementById('buttonzaya').style.color='white'
 }
 
@@ -54,11 +54,4 @@ b.onmouseout=function(e)
 {
     document.getElementById('buttonzaya').style.backgroundColor='white'
     document.getElementById('buttonzaya').style.color='black'
-}
-
-//Перемещение кнопки до определённого момента
-
-b.scrollTo=function(r)
-{
-    document.getElementById('blockbutton').style.position='' 
 }
