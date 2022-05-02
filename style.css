@@ -157,7 +157,7 @@ justify-content:space-between;
 {
     0%
     {
-        right: -10000px; 
+        right: -3000px; 
     } 
     100%
     {
@@ -173,7 +173,7 @@ justify-content:space-between;
     } 
     100%
     {
-        right: -10000px;
+        right: -3000px;
         display: none;
         z-index: -10;
         animation-fill-mode:forwards;
