@@ -55,3 +55,20 @@ b.onmouseout=function(e)
     document.getElementById('buttonzaya').style.backgroundColor='white'
     document.getElementById('buttonzaya').style.color='black'
 }
+
+//Форма
+var a=document.querySelector('#buttonzaya')
+
+a.onclick=function()
+{
+    document.getElementById('forma').style.display="block"
+    document.getElementById('forma').style.animation= "move-left 2s ease-out 0s"
+    document.getElementById('forma').style.zIndex="100"
+}
+
+var c=document.querySelector('#closeBtn')
+c.onclick=function()
+{
+    document.getElementById('forma').style.animation= "move-right 2s ease-out 0s"
+    document.getElementById('forma').style.animationFillMode="forwards"
+}
