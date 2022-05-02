@@ -48,12 +48,14 @@ bb.onmouseover=function(e)
 {
     document.getElementById('buttonzaya').style.backgroundColor='blue'
     document.getElementById('buttonzaya').style.color='white'
+    document.getElementById('buttonzaya').style.transition=".5s"
 }
 
 bb.onmouseout=function(e)
 {
     document.getElementById('buttonzaya').style.backgroundColor='white'
     document.getElementById('buttonzaya').style.color='black'
+    document.getElementById('buttonzaya').style.transition=".5s"
 }
 
 //Форма

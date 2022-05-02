@@ -114,7 +114,6 @@ justify-content:space-between;
     color: black;
     background-color: white;
     text-decoration: none;
-    transition: .5s;
     font-weight: 250;
     font-size: 20px;
     border: none;
@@ -188,7 +187,7 @@ justify-content:space-between;
     color: white;
     font-size: 70px;
     font-weight: 500;
-    margin-left: .5em;
+    margin-left: .2em;
 }
 
 .your-name
@@ -200,12 +199,6 @@ justify-content:space-between;
     height: 60px;
     margin-left: 2em;
     color: white;
-}
-
-.your-name:active
-{
-    outline: none;
-    transition: 5s;
 }
 
 .your-tel
@@ -220,12 +213,6 @@ justify-content:space-between;
     margin-top: 1em;
 }
 
-.your-tel:active
-{
-    outline: none;
-    transition: 5s;
-}
-
 .your-email
 {
     background-color: black;
@@ -236,12 +223,6 @@ justify-content:space-between;
     margin-left: 2em;
     color: white;
     margin-top: 1em;
-}
-
-.your-email:active
-{
-    outline: none;
-    transition: 5s;
 }
 
 .your-comment
@@ -256,10 +237,13 @@ justify-content:space-between;
     margin-top: 1em;
 }
 
-.your-comment:active
+.comment
 {
-    outline: none;
-    transition: 5s;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: 10px;
+    min-height: 150px;
+    resize: none;
 }
 
 .attach-file
@@ -280,6 +264,35 @@ justify-content:space-between;
     transition: .7s;
     cursor: pointer;
     text-decoration: underline;
+}
+
+.send-btn
+{
+    border-radius: 100px;
+    letter-spacing: 3px;
+    transition: .5s;
+    font-weight: 250;
+    font-size: 20px;
+    border-color: gray;
+    margin-left: 10em;
+    background-color: black;
+    color: gray;
+    border-style: solid;
+}
+
+.send-btn:hover
+{
+    cursor: pointer;
+    border-color: white;
+    color: black;
+    background-color: white;
+    transition: .5s;
+}
+
+
+.void
+{
+    height: 2em;
 }
 
 /* WEB */
