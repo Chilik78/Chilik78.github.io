@@ -112,10 +112,12 @@ justify-content:space-between;
     border-radius: 100px;
     letter-spacing: 3px;
     color: black;
+    background-color: white;
     text-decoration: none;
     transition: .5s;
     font-weight: 250;
     font-size: 20px;
+    border: none;
 }
 
 /* ФОРМА */
@@ -123,7 +125,7 @@ justify-content:space-between;
 {
     display: none;
     width: 65%;
-    height: 450vh;
+    height: 100vh;
     z-index: -10;
     background-color: black;
     left: auto;
@@ -131,6 +133,7 @@ justify-content:space-between;
     overflow: hidden;
     position: fixed;
     right: 0;
+    overflow-y: auto;
 }
 
 .bi-x
@@ -157,7 +160,7 @@ justify-content:space-between;
 {
     0%
     {
-        right: -3000px; 
+        right: -2000px; 
     } 
     100%
     {
@@ -173,11 +176,110 @@ justify-content:space-between;
     } 
     100%
     {
-        right: -3000px;
+        right: -2000px;
         display: none;
         z-index: -10;
         animation-fill-mode:forwards;
     }   
+}
+
+.send-application
+{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    margin-left: .5em;
+}
+
+.your-name
+{
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 500px;
+    height: 60px;
+    margin-left: 2em;
+    color: white;
+}
+
+.your-name:active
+{
+    outline: none;
+    transition: 5s;
+}
+
+.your-tel
+{
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 500px;
+    height: 60px;
+    margin-left: 2em;
+    color: white;
+    margin-top: 1em;
+}
+
+.your-tel:active
+{
+    outline: none;
+    transition: 5s;
+}
+
+.your-email
+{
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 500px;
+    height: 60px;
+    margin-left: 2em;
+    color: white;
+    margin-top: 1em;
+}
+
+.your-email:active
+{
+    outline: none;
+    transition: 5s;
+}
+
+.your-comment
+{
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 500px;
+    height: 200px;
+    margin-left: 2em;
+    color: white;
+    margin-top: 1em;
+}
+
+.your-comment:active
+{
+    outline: none;
+    transition: 5s;
+}
+
+.attach-file
+{
+    margin-left: 2em;
+    height: 3.5em;
+}
+
+.ssilka-attach-file
+{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.ssilka-attach-file:hover
+{
+    transition: .7s;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 /* WEB */

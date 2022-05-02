@@ -42,33 +42,49 @@
 //     })()
 
 // КНОПКА
-var b= document.querySelector('#blockbutton')
+var bb= document.querySelector('#blockbutton')
 
-b.onmouseover=function(e)
+bb.onmouseover=function(e)
 {
     document.getElementById('buttonzaya').style.backgroundColor='blue'
     document.getElementById('buttonzaya').style.color='white'
 }
 
-b.onmouseout=function(e)
+bb.onmouseout=function(e)
 {
     document.getElementById('buttonzaya').style.backgroundColor='white'
     document.getElementById('buttonzaya').style.color='black'
 }
 
 //Форма
-var a=document.querySelector('#buttonzaya')
+var bz=document.querySelector('#buttonzaya')
 
-a.onclick=function()
+bz.onclick=function()
 {
     document.getElementById('forma').style.display="block"
-    document.getElementById('forma').style.animation= "move-left 3s ease-out 0s"
+    document.getElementById('forma').style.animation= "move-left 1.5s ease-out 0s"
     document.getElementById('forma').style.zIndex="100"
 }
 
 var c=document.querySelector('#closeBtn')
 c.onclick=function()
 {
-    document.getElementById('forma').style.animation= "move-right 3s ease-out 0s"
+    document.getElementById('forma').style.animation= "move-right 1.5s ease-out 0s"
     document.getElementById('forma').style.animationFillMode="forwards"
+}
+
+///При наводе на ссылку
+
+var sa=document.querySelector("#ssilkaAttach")
+
+sa.onmouseover= function()
+{
+    document.getElementById('paperclip').style.color="pink"
+    document.getElementById('paperclip').style.transition="1s"
+}
+
+sa.onmouseout= function()
+{
+    document.getElementById('paperclip').style.color="gray"
+    document.getElementById('paperclip').style.transition="1s"
 }
