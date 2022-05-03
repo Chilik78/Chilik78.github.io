@@ -477,6 +477,7 @@ justify-content:space-between;
     width: 100%;
     margin-left: 10px;
     height: auto;
+    color: blue;
 }
 
 .services-web
@@ -488,7 +489,7 @@ justify-content:space-between;
     width: auto;
     display: flex;
     align-items: center;
-    font-size: 150px;
+    font-size: 100px;
 }
 
 .one
@@ -507,7 +508,7 @@ justify-content:space-between;
     height: 150vh;
     display: flex;
     align-items: center;
-    font-size: 150px;
+    font-size: 100px;
 }
 
 .two
@@ -525,7 +526,7 @@ justify-content:space-between;
     height: 150vh;
     display: flex;
     align-items: center;
-    font-size: 150px;
+    font-size: 100px;
 }
 
 .three
