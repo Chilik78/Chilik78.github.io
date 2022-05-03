@@ -184,6 +184,7 @@ justify-content:space-between;
 
 .send-application
 {
+    position: relative;
     color: white;
     font-size: 70px;
     font-weight: 500;
@@ -487,6 +488,14 @@ justify-content:space-between;
     width: auto;
     display: flex;
     align-items: center;
+    font-size: 150px;
+}
+
+.one
+{
+    /* font-family:'Goldman', cursive; */
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
 }
 
 .services-e-commerce
@@ -498,6 +507,13 @@ justify-content:space-between;
     height: 150vh;
     display: flex;
     align-items: center;
+    font-size: 150px;
+}
+
+.two
+{
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
 }
 
 .services-mobile
@@ -509,6 +525,13 @@ justify-content:space-between;
     height: 150vh;
     display: flex;
     align-items: center;
+    font-size: 150px;
+}
+
+.three
+{
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
 }
 
 /* Цены */
