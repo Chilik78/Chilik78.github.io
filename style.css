@@ -536,13 +536,18 @@ justify-content:space-between;
     font-size: 100px;
 }
 
+#uslugi-mobile
+{
+    margin-top: 38vh;
+}
+
 .three
 {
     font-family: 'Space Mono', monospace;
     font-size: 30px;
     /* text-align: right;
     width: 100%; */
-    margin-top: 50vh;
+    margin-top: 38vh;
 }
 
 /* Цены */
