@@ -43,12 +43,20 @@ justify-content:space-between;
     text-decoration-color: blue;
 }
 
+.logo-clone
+{
+    display: none;
+}
+
 .logo
 {
     height: 15vh;
 }
 
-
+.bi-list
+{
+    display: none;
+}
 
 /* WEB+mobile+support */
 .content
@@ -226,7 +234,7 @@ justify-content:space-between;
     margin-top: 1em;
 }
 
-.your-comment
+.comment
 {
     background-color: black;
     border-radius: 5px;
@@ -238,13 +246,12 @@ justify-content:space-between;
     margin-top: 1em;
 }
 
-.comment
+.text-area-comment
 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    margin-top: 10px;
-    min-height: 150px;
-    resize: none;
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    color: white;
 }
 
 .attach-file
@@ -628,21 +635,3 @@ justify-content:space-between;
 {
     margin-top: 50vh;
 }
-
-
-
-/*  */
-/*  */
-/*  */
-/* СМАРТФОН */
-/*  */
-/*  */
-/*  */
-
-@media(max-width:576px)
-{
-  
-}
-
-/* НАВИГАЦИЯ */
-
