@@ -132,7 +132,7 @@ justify-content:space-between;
 {
     display: none;
     width: 65%;
-    height: 100vh;
+    height: 150vh;
     z-index: -10;
     background-color: black;
     left: auto;
@@ -197,6 +197,7 @@ justify-content:space-between;
     font-size: 70px;
     font-weight: 500;
     margin-left: .2em;
+    display: flex;
 }
 
 .your-name
@@ -212,6 +213,7 @@ justify-content:space-between;
 
 .your-tel
 {
+    display: flex;
     background-color: black;
     border-radius: 5px;
     border: 1px solid gray;
