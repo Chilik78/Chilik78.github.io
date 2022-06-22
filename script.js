@@ -92,37 +92,19 @@ sa.onmouseout= function()
 }
 
 //При нажатии на почту
+
 var mg = document.querySelector("#mailGroup")
-isPause = true;
+var myAudio = document.getElementById("myAudio");
+var isPlaying = false;
 
-var audio = new Audio();
-audio.src = '\audio\Jamie_Christopherson_-_Rules_of_Nature_OST_Metal_Gear_Rising_Revengeance_73652795.mp3';
+mg.onclick = function togglePlay() {
+  isPlaying ? myAudio.pause() : myAudio.play();
+};
 
-mg.onclick= function soundClick()
-{
-    if(audio.paused)
-    {
-        audioPlay()
-        console.log("zachel1");
-        console.log(audio.paused);
-    }
-    // else
-    // {
-    //     audioStop()
-    //     audio.pause();
-    //     console.log("zachel2");
-    //     console.log(audio.paused);
-    // }
-}
+myAudio.onplaying = function() {
+  isPlaying = true;
+};
 
-// function audioPlay()
-// {
-//     audio.paused = false;
-//     audio.play();
-// }
-
-// function audioStop()
-// {
-//     audio.paused = true;
-//      audio.pause();
-// }
+myAudio.onpause = function() {
+  isPlaying = false;
+};
