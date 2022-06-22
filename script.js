@@ -94,17 +94,40 @@ sa.onmouseout= function()
 //При нажатии на почту
 
 var mg = document.querySelector("#mailGroup")
-var myAudio = document.getElementById("myAudio");
-var isPlaying = false;
+var myAudio1 = document.getElementById("myAudio1");
+var isPlaying1 = false;
 
-mg.onclick = function togglePlay() {
-  isPlaying ? myAudio.pause() : myAudio.play();
+mg.onclick = function togglePlay1() 
+{
+  isPlaying1 ? myAudio1.pause() : myAudio1.play();
 };
 
-myAudio.onplaying = function() {
-  isPlaying = true;
+myAudio1.onplaying = function() 
+{
+  isPlaying1 = true;
 };
 
-myAudio.onpause = function() {
-  isPlaying = false;
+myAudio1.onpause = function() 
+{
+  isPlaying1 = false;
+};
+
+//При нажатии на телефон
+var tg = document.querySelector("#telGroup")
+var myAudio2 = document.getElementById("myAudio2");
+var isPlaying2 = false;
+
+tg.onclick = function togglePlay2()
+{
+    isPlaying2 ? myAudio2.pause() : myAudio2.play();
+}
+ 
+myAudio2.onplaying = function() 
+{
+  isPlaying2 = true;
+};
+
+myAudio2.onpause = function() 
+{
+  isPlaying2 = false;
 };
