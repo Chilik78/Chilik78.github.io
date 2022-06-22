@@ -753,7 +753,6 @@ justify-content:space-between;
 .mail-group
 {
     list-style-type: none;
-    cursor: pointer;
 }
 
 @media(min-width:1920px)
