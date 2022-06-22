@@ -12,7 +12,6 @@
     top:0;
     right: 0;
     width: auto;
-    /* background-color: rgba(0, 0, 255, 0.705); */
 }
 
 .nav-list
@@ -27,7 +26,16 @@ justify-content:space-between;
 {
     margin: 0 80px;
     margin-top: 4vh;
+    font-size: 1.5em;
     list-style-type:none;
+}
+
+@media (min-width:1920px)
+{
+    .nav-list li
+    {
+        font-size: 2em;
+    } 
 }
 
 .nav-list a
@@ -87,6 +95,13 @@ justify-content:space-between;
     font-weight:400;
 }
 
+@media (min-width: 1920px)
+{
+        .development
+    {
+        font-size: 2em;
+    }
+}
 /* .application
 {
     font-size: 15px;
@@ -114,6 +129,17 @@ justify-content:space-between;
     margin-left: -4rem;
 }
 
+@media(min-width:1920px)
+{
+    .btn-zayavka
+    {
+        margin: -120px 0 0 -300px;
+        margin-top: -10rem;
+        margin-left: -4rem;
+        margin-bottom: 20rem;
+    }
+}
+
 #buttonzaya
 {
     text-transform: uppercase;
@@ -125,6 +151,14 @@ justify-content:space-between;
     font-weight: 250;
     font-size: 20px;
     border: none;
+}
+
+@media(min-width: 1920px)
+{
+    #buttonzaya
+    {
+        font-size: 2em;
+    }
 }
 
 /* ФОРМА */
@@ -146,6 +180,15 @@ justify-content:space-between;
 .bi-x
 {
     color: gray; 
+}
+
+@media(min-width:1920px)
+{
+    .bi-x
+    {
+        width: 5em;
+        height: 5em;
+    } 
 }
 
 .bi-x:hover
@@ -256,6 +299,37 @@ justify-content:space-between;
     color: white;
 }
 
+@media(min-width:1920px)
+{
+    .your-name
+    {
+        height: 2em;
+        font-size: 2em;
+        margin-left: 1em;
+    }
+
+    .your-tel
+    {
+        height: 2em;
+        font-size: 2em;
+        margin-left: 1em;
+    }
+
+    .your-email
+    {
+        height: 2em;
+        font-size: 2em;
+        margin-left: 1em;
+    }
+
+    .comment
+    {
+        height: 2em;
+        font-size: 2em;
+        margin-left: 1em;
+    }
+}
+
 .attach-file
 {
     margin-left: 2em;
@@ -299,6 +373,34 @@ justify-content:space-between;
     transition: .5s;
 }
 
+@media(min-width:1920px)
+{
+    .attach-file
+    {
+        margin-top: 9em;
+    }
+
+    .ssilka-attach-file
+    {
+        font-size: 2em;
+    }
+
+    .bi-paperclip
+    {
+        height: 2.3em;
+        width: 2.3em;
+        margin-top: -.5em;
+    }
+
+    .send-btn
+    {
+        height: 2em;
+        width: 10em;
+        font-size: 2em;
+        margin-left: 3em;
+        margin-top: .5em;
+    }
+}
 
 .void
 {
@@ -332,6 +434,19 @@ justify-content:space-between;
     margin-right: 10px;
 }
 
+@media(min-width:1920px)
+{
+    .WEB
+    {
+        font-size: 4em;
+    }
+
+    .web-sites
+    {
+        margin-top: -70em;
+    }
+}
+
 /* Mobile */
 
 .mobile
@@ -343,6 +458,14 @@ justify-content:space-between;
     align-items: center;
     height: 150vh;
     margin-left: 200px;
+}
+
+@media(min-width:1920px)
+{
+    .mobile
+    {
+        font-size: 1em;
+    }
 }
 
 /* Support */
@@ -359,7 +482,13 @@ justify-content:space-between;
     margin-top: -4em;
 }
 
-
+@media(min-width:1920px)
+{
+    .support
+    {
+        font-size: 1em;
+    }
+}
 
 /* О нас (About team) */
 .About-team
@@ -401,6 +530,7 @@ justify-content:space-between;
     max-width: 100%;
     max-height: 100vh;
     margin: 0 auto;
+    padding-top: 1em;
 }
 
 .Project
@@ -411,8 +541,6 @@ justify-content:space-between;
     height: 200vh;
     left: 0;
     right: 0;
-    /* background-size: 100vh;
-    background-size: 100%; */
 }
 
 .coming-soon
@@ -420,28 +548,15 @@ justify-content:space-between;
     font-size: 120px;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.308) 6.7px 8px 2px;
-    /* animation: shadow 3s ease-out 0s; */
 }
 
-/* @keyframes shadow
+@media(min-width:1920px)
 {
-    0%
+    .Projects
     {
-        text-shadow:none;
+        padding-top: .5em;
     }
-    25%
-    {
-        text-shadow: rgba(0, 0, 0, 0.308) 1.165px 2px 0.5px;
-    }
-    50%
-    {
-        text-shadow: rgba(0, 0, 0, 0.308) 3.35px 4px 1px;
-    }
-    100%
-    {
-        text-shadow: rgba(0, 0, 0, 0.308) 6.7px 8px 2px;
-    }
-} */
+}
 
 /* Услуги */
 .services
@@ -462,6 +577,14 @@ justify-content:space-between;
     z-index: 2;
 }
 
+@media(max-width:1920px)
+{
+    .services-head
+    {
+        padding-top: 1em;
+    }
+}
+
 .services-types
 {
     font-size: 26px;
@@ -474,19 +597,11 @@ justify-content:space-between;
     margin-top: 20px;
 }
 
-/* .services-types li
-{
-    display: flex;
-    height: 33.3vh;
-    align-items: center;
-} */
-
 .type-uslug
 {
     width: 100%;
     margin-left: 10px;
     height: auto;
-    /* text-align: right; */
     margin-top: 50vh;
 }
 
@@ -504,11 +619,8 @@ justify-content:space-between;
 
 .one
 {
-    /* font-family:'Goldman', cursive; */
     font-family: 'Space Mono', monospace;
     font-size: 30px;
-    /* text-align: right;
-    width: 100%; */
     margin-top: 50vh;
 }
 
@@ -528,8 +640,6 @@ justify-content:space-between;
 {
     font-family: 'Space Mono', monospace;
     font-size: 30px;
-    /* text-align: right;
-    width: 100%; */
     margin-top: 50vh;
 }
 
@@ -554,8 +664,6 @@ justify-content:space-between;
 {
     font-family: 'Space Mono', monospace;
     font-size: 30px;
-    /* text-align: right;
-    width: 100%; */
     margin-top: 38vh;
 }
 
@@ -611,7 +719,7 @@ justify-content:space-between;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 70vh;
-    height: 100%;
+    height: 10vh;
     width: 100%;
 }
 
@@ -619,7 +727,30 @@ justify-content:space-between;
 {
     border-left: 6px solid black;
     height: 200px;
-    margin-top: -205vh;
+    margin-top: -25vh;
+}
+
+.data
+{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.mail-group
+{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+@media(min-width:1920px)
+{
+    .line
+    {
+        height: 300px;
+    }
 }
 
 /* Заявка */
