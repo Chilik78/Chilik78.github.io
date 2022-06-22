@@ -314,6 +314,7 @@ justify-content:space-between;
         height: 2em;
         font-size: 2em;
         margin-left: 1em;
+        width: 18em;
     }
 
     .your-tel
@@ -321,6 +322,7 @@ justify-content:space-between;
         height: 2em;
         font-size: 2em;
         margin-left: 1em;
+        width: 18em;
     }
 
     .your-email
@@ -328,6 +330,7 @@ justify-content:space-between;
         height: 2em;
         font-size: 2em;
         margin-left: 1em;
+        width: 18em;
     }
 
     .comment
@@ -335,6 +338,14 @@ justify-content:space-between;
         height: 2em;
         font-size: 2em;
         margin-left: 1em;
+        width: 20em;
+        height: 10em;
+    }
+
+    .text-area-comment
+    {
+        width: 20em;
+        height: 10em;
     }
 }
 
@@ -385,7 +396,7 @@ justify-content:space-between;
 {
     .attach-file
     {
-        margin-top: 9em;
+        margin-top: 1em;
     }
 
     .ssilka-attach-file
