@@ -90,3 +90,39 @@ sa.onmouseout= function()
     document.getElementById('paperclip').style.color="gray"
     document.getElementById('paperclip').style.transition="1s"
 }
+
+//При нажатии на почту
+var mg = document.querySelector("#mailGroup")
+isPause = true;
+
+var audio = new Audio();
+audio.src = '\audio\Jamie_Christopherson_-_Rules_of_Nature_OST_Metal_Gear_Rising_Revengeance_73652795.mp3';
+
+mg.onclick= function soundClick()
+{
+    if(audio.paused)
+    {
+        audioPlay()
+        console.log("zachel1");
+        console.log(audio.paused);
+    }
+    // else
+    // {
+    //     audioStop()
+    //     audio.pause();
+    //     console.log("zachel2");
+    //     console.log(audio.paused);
+    // }
+}
+
+// function audioPlay()
+// {
+//     audio.paused = false;
+//     audio.play();
+// }
+
+// function audioStop()
+// {
+//     audio.paused = true;
+//      audio.pause();
+// }
