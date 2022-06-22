@@ -166,7 +166,7 @@ justify-content:space-between;
 {
     display: none;
     width: 65%;
-    height: 150vh;
+    height: 100vh;
     z-index: -10;
     background-color: black;
     left: auto;
@@ -175,6 +175,14 @@ justify-content:space-between;
     position: fixed;
     right: 0;
     overflow-y: auto;
+}
+
+@media(min-width:1920px)
+{
+    .Forma
+    {
+        height: 150vh;
+    }
 }
 
 .bi-x
