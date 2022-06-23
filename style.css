@@ -145,14 +145,6 @@ justify-content:space-between;
     width: auto;
 }
 
-/* @media(max-width:400px)
-{
-    .content
-    {
-        margin-top: 30em;
-    }
-} */
-
 .btn--text
 {
     display: flex;
@@ -759,14 +751,43 @@ justify-content:space-between;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    color: blue;
     font-size: 25px;
+    font-weight: 300;
+}
+
+.text-about-SEKL
+{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.names li
+{
+    font-size: 40px;
     font-weight: 300;
 }
 
 .SEKL-paragrah
 {
+    color: blue;
     font-size: 40px;
     font-weight: 300;
+}
+
+@media(min-width:1920px)
+{
+    .SEKL-paragrah
+    {
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .project-types
+    {
+        font-size: 40px;
+        font-weight: 300;
+    }
 }
 
 @media(max-width:400px)
@@ -782,10 +803,18 @@ justify-content:space-between;
     .text-about-SEKL
     {
         font-size: 1.5em;
+        font-weight: 300px;
+    }
+
+    .names li
+    {
+        font-size: 1.5em;
+        font-weight: 300px;
     }
 
     .SEKL-paragrah
     {
+        font-weight: 300px;
         font-size: 1.5em;
     }
 }
