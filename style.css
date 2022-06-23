@@ -100,6 +100,15 @@ justify-content:space-between;
     }
 }
 
+@keyframes rotationBack {
+    0% {
+        transform:rotate(180deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
 .nav-list a
 {
     text-decoration: none;
