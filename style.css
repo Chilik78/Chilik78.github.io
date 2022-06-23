@@ -1194,11 +1194,6 @@
     background-color: rgb(44, 43, 43);
 }
 
-.statement-text
-{
-    margin-top: 50vh;
-}
-
 .text-zayavka
 {
     display: flex;
@@ -1359,5 +1354,34 @@
 
 @media(min-width:1920px)
 {
-    
+    .text-zayavka
+    {
+        font-size: 35px;
+    }
+
+    .text-attach-file
+    {
+        font-size: 30px;
+        margin-left: -50em;
+    }
+
+    .send-btn-down
+    {
+        margin-left: -43em;
+        font-size: 35px;
+    }
+}
+
+@media(max-width:400px)
+{
+    .statement
+    {
+        height: 50vh;
+    }
+
+    .text-zayavka
+    {
+        margin-top: 10vh;
+        font-size: 7px;
+    }
 }
