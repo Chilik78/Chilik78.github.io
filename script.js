@@ -203,6 +203,20 @@ pd.onclick = function zapolnenie5()
   pd.style.color = "white"
 }
 
+var sad=document.querySelector("#ssilkaAttachDown")
+
+sad.onmouseover= function()
+{
+    document.getElementById('paperclipDown').style.color="pink"
+    document.getElementById('paperclipDown').style.transition="1s"
+}
+
+sad.onmouseout= function()
+{
+    document.getElementById('paperclipDown').style.color="gray"
+    document.getElementById('paperclipDown').style.transition="1s"
+}
+
 // if (window.devicePixelRatio !== 1) { // Костыль для определения иных устройств, с коэффициентом отличным от 1		
 //   var dpt = window.devicePixelRatio;
 //   var widthM = window.screen.width * dpt;
