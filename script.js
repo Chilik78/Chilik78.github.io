@@ -132,6 +132,38 @@ myAudio2.onpause = function()
   isPlaying2 = false;
 };
 
+//Кнопка меню
+
+let menuBtn=document.querySelector('.menu-list')
+let navList=document.querySelector('.nav-list')
+var isClose=true;
+
+menuBtn.onclick = function(){
+
+  if(isClose == true)
+  {
+    openMenu();
+  }
+  else
+  {
+    closeMenu();
+  }
+}
+
+function openMenu()
+{
+  navList.style.transition = ".7s";
+  navList.style.flexDirection = "column";
+  isClose = false;
+}
+
+function closeMenu()
+{
+  navList.style.transition = ".7s";
+  navList.style.flexDirection = "row";
+  isClose = true;
+}
+
 // if (window.devicePixelRatio !== 1) { // Костыль для определения иных устройств, с коэффициентом отличным от 1		
 //   var dpt = window.devicePixelRatio;
 //   var widthM = window.screen.width * dpt;

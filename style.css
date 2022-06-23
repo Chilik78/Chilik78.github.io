@@ -14,12 +14,9 @@
     width: auto;
 }
 
-@media(max-width:400px)
+.menu-list
 {
-    .navigation
-    {
-        display: none;
-    }
+    display: none;
 }
 
 .nav-list
@@ -48,6 +45,21 @@ justify-content:space-between;
 
 @media(max-width:400px)
 {
+    .menu-list
+    {
+        display: flex;
+        margin-left: 10em;
+        height: 5vh;
+        margin-top: 1.5em;
+        width: 100%;
+    }
+
+    .nav-list
+    {
+        overflow: hidden;
+        transition: .7s;
+    }
+
     .nav-list li
     {
         font-size: 1em;
