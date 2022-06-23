@@ -1376,7 +1376,7 @@
 {
     .statement
     {
-        height: 100vh;
+        height: 60vh;
     }
 
     .text-zayavka
@@ -1437,5 +1437,8 @@
     .send-btn-down
     {
         margin-top: 0;
+        font-size: 7px;
+        letter-spacing: 1px;
+        margin-left: -40em;
     }
 }
