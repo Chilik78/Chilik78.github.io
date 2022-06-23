@@ -1376,12 +1376,66 @@
 {
     .statement
     {
-        height: 50vh;
+        height: 100vh;
     }
 
     .text-zayavka
     {
-        margin-top: 10vh;
+        margin-top: 5vh;
+        font-size: 9px;
+    }
+
+    .project-descriptions
+    {
+        width: 25em;
+    }
+
+    .name-and-family
+    {
+        border-bottom: 1px gray solid;
+    }
+
+    .name-company
+    {
+        border-bottom: 1px gray solid;
+    }
+
+    .tel-company
+    {
+        border-bottom: 1px gray solid;
+    }
+
+    .email-company
+    {
+        border-bottom: 1px gray solid;
+        width: 8em;
+    }
+
+    .project-descriptions
+    {
+        border-bottom: 1px gray solid; 
+    }
+
+    .attach-file-down
+    {
+        margin-top: 0;
+    }
+
+    .text-attach-file
+    {
         font-size: 7px;
+        margin-left: -40em;
+    }
+
+    .bi-paperclip-down
+    {
+        margin-top: .25em;
+        height: 2em;
+        width: .5em;
+    }
+
+    .send-btn-down
+    {
+        margin-top: 0;
     }
 }
