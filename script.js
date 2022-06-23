@@ -182,6 +182,27 @@ nc.onclick = function zapolnenie2()
   nc.style.color = "white"
 }
 
+let tc = document.querySelector('.tel-company')
+
+tc.onclick = function zapolnenie3()
+{
+  tc.style.color = "white"
+}
+
+let ec = document.querySelector('.email-company')
+
+ec.onclick = function zapolnenie4()
+{
+  ec.style.color = "white"
+}
+
+let pd = document.querySelector('.project-descriptions')
+
+pd.onclick = function zapolnenie5()
+{
+  pd.style.color = "white"
+}
+
 // if (window.devicePixelRatio !== 1) { // Костыль для определения иных устройств, с коэффициентом отличным от 1		
 //   var dpt = window.devicePixelRatio;
 //   var widthM = window.screen.width * dpt;
