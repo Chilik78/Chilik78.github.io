@@ -14,13 +14,13 @@
     width: auto;
 }
 
-/* @media(max-width:400px)
+@media(max-width:400px)
 {
     .navigation
     {
         display: none;
     }
-} */
+}
 
 .nav-list
 {
@@ -179,11 +179,18 @@ justify-content:space-between;
 
     .btn--text
     {
-        top:2em;
+        position:sticky;
+        margin-top: 40vh;
+        top:50vh;
+        margin-bottom: 18em;
+        min-height: 2em;
+        overflow: hidden;
     }
 
     .btn-zayavka
     {
+        /* top: 10rem;
+        min-height: 2em; */
         margin-left: -8rem;
     } 
 } 

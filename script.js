@@ -96,7 +96,7 @@ sa.onmouseout= function()
 var mg = document.querySelector("#mailGroup")
 var myAudio1 = document.getElementById("myAudio1");
 var isPlaying1 = false;
-myAudio1.volume = 0.4;
+myAudio1.volume = 0.25;
 mg.onclick = function togglePlay1() 
 {
   isPlaying1 ? myAudio1.pause() : myAudio1.play();
@@ -116,7 +116,7 @@ myAudio1.onpause = function()
 var tg = document.querySelector("#telGroup")
 var myAudio2 = document.getElementById("myAudio2");
 var isPlaying2 = false;
-myAudio2.volume = 0.4;
+myAudio2.volume = 0.25;
 tg.onclick = function togglePlay2()
 {
     isPlaying2 ? myAudio2.pause() : myAudio2.play();
