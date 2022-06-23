@@ -1057,6 +1057,37 @@ justify-content:space-between;
     }
 }
 
+@media(max-width:400px)
+{
+    .contacts
+    {
+        height: 75vh;
+    }
+
+    .contacts-head
+    {
+        font-size: 1em;
+    }
+
+    .contacts-types
+    {
+        font-size: .5em;
+        margin-top: 25vh;
+    }
+
+    .line
+    {
+        border-left: 4px solid black;
+        margin-top: -20vh;
+        height: 150px;
+    }
+
+    .data
+    {
+        font-size: .5em;
+    }
+}
+
 /* Заявка */
 .statement
 {
