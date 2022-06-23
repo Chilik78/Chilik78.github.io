@@ -66,6 +66,40 @@ justify-content:space-between;
     } 
 }
 
+@keyframes openMenuList
+{
+    from
+    {
+        flex-direction: row;
+    }
+    to
+    {
+        flex-direction: column;
+    }
+}
+
+@keyframes closeMenuList
+{
+    0%
+    {
+        flex-direction: column;
+    }
+    
+    100%
+    {
+        flex-direction: row;
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(180deg);
+    }
+}
+
 .nav-list a
 {
     text-decoration: none;

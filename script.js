@@ -136,6 +136,7 @@ myAudio2.onpause = function()
 
 let menuBtn=document.querySelector('.menu-list')
 let navList=document.querySelector('.nav-list')
+
 var isClose=true;
 
 menuBtn.onclick = function(){
@@ -152,15 +153,17 @@ menuBtn.onclick = function(){
 
 function openMenu()
 {
-  navList.style.transition = ".7s";
-  navList.style.flexDirection = "column";
+  navList.style.animation= "openMenuList 2s ease-out 0s"
+  navList.style.flexDirection= "column";
+  menuBtn.style.animation= "rotation 2s ease-out 0s"
   isClose = false;
 }
 
 function closeMenu()
 {
-  navList.style.transition = ".7s";
-  navList.style.flexDirection = "row";
+  navList.style.animation= "closeMenuList 1.5s ease-out 0s"
+  navList.style.flexDirection= "row";
+  menuBtn.style.animation= "rotation 2s ease-out 0s"
   isClose = true;
 }
 
