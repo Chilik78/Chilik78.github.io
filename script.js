@@ -167,6 +167,21 @@ function closeMenu()
   isClose = true;
 }
 
+
+let naf = document.querySelector('.name-and-family')
+
+naf.onclick = function zapolnenie1()
+{
+  naf.style.color = "white"
+}
+
+let nc = document.querySelector('.name-company')
+
+nc.onclick = function zapolnenie2()
+{
+  nc.style.color = "white"
+}
+
 // if (window.devicePixelRatio !== 1) { // Костыль для определения иных устройств, с коэффициентом отличным от 1		
 //   var dpt = window.devicePixelRatio;
 //   var widthM = window.screen.width * dpt;
