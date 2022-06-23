@@ -837,7 +837,7 @@ justify-content:space-between;
 {
     .services
     {
-        height: 150vh;
+        height: 105vh;
     }
 
     .services-head
@@ -847,7 +847,7 @@ justify-content:space-between;
 
     .services-types
     {
-        height: 150vh;
+        height: 105vh;
     }
 }
 
@@ -917,11 +917,12 @@ justify-content:space-between;
 {
     .services-web
     {
-        height: 50vh;
+        height: 35vh;
         background-image: url(img/Mobile/WEB-yslygi.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
+        background-color: blueviolet;
     }
 
     .services-e-commerce
@@ -935,32 +936,43 @@ justify-content:space-between;
 
     .services-mobile
     {
-        height: 50vh;
+        margin-top: -1em;
+        height: 35vh;
         background-image: url(img/Mobile/MOBILE-yslygi.jpg);
         background-size: contain;
         background-repeat: no-repeat;
+        background-color: brown;
+    }
+
+    #uslugi-mobile
+    {
+        margin-top: 4em;
+        font-size: .4em;
+        height: 10vh;
+        letter-spacing: 1px;
     }
 
     .type-uslug
     {
-        margin-top: -2.3em;
-        font-size: .5em;
+        margin-top: 4em;
+        font-size: .4em;
         height: 10vh;
+        letter-spacing: 1.5px;
     }
     
     .one
     {
-        margin-top: -3.5em;
+        margin-top: 5em;
     }
 
     .two
     {
-        margin-top: -3.5em;
+        margin-top: 5em;
     }
 
     .three
     {
-        margin-top: -3.5em;
+        margin-top: 5em;
     }
 }
 
