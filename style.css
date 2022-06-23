@@ -767,21 +767,22 @@ justify-content:space-between;
 {
     .Project
     {
-        height: 100vh;
+        height: 50vh;
         background-image: url(img/Mobile/Stena.jpg);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
     }
 
     .Projects
     {
-        height: 45vh;
+        height: 25vh;
+        font-size: 1.5em;
     }
 
     .coming-soon
     {
-        font-size: 2em;
+        font-size: 1.2em;
     }
 }
 
@@ -830,6 +831,24 @@ justify-content:space-between;
     margin-left: 10px;
     height: auto;
     margin-top: 50vh;
+}
+
+@media(max-width:400px)
+{
+    .services
+    {
+        height: 150vh;
+    }
+
+    .services-head
+    {
+        font-size: 1.5em;
+    }
+
+    .services-types
+    {
+        height: 150vh;
+    }
 }
 
 .services-web
@@ -892,6 +911,57 @@ justify-content:space-between;
     font-family: 'Space Mono', monospace;
     font-size: 30px;
     margin-top: 38vh;
+}
+
+@media(max-width:400px)
+{
+    .services-web
+    {
+        height: 50vh;
+        background-image: url(img/Mobile/WEB-yslygi.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .services-e-commerce
+    {
+        height: 35vh;
+        background-image: url(img/Mobile/E-COMMERCE-yslygi.jpg);
+        background-size: contain;
+        background-repeat:no-repeat;
+        background-color: blue;
+    }
+
+    .services-mobile
+    {
+        height: 50vh;
+        background-image: url(img/Mobile/MOBILE-yslygi.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .type-uslug
+    {
+        margin-top: -2.3em;
+        font-size: .5em;
+        height: 10vh;
+    }
+    
+    .one
+    {
+        margin-top: -3.5em;
+    }
+
+    .two
+    {
+        margin-top: -3.5em;
+    }
+
+    .three
+    {
+        margin-top: -3.5em;
+    }
 }
 
 /* Цены */
