@@ -575,17 +575,23 @@ justify-content:space-between;
     }
 }
 
-/* @media(max-width:400px)
+ @media(max-width:400px)
 {
     .web-sites
     {
-        background-image: url(img\Mobile\WEB.jpg);
+        background-image: url(img/Mobile/WEB.jpg);
         background-size: contain;
-        position: relative;
+        background-repeat: no-repeat;
         width: 100%;
         margin-left: 0px;
+        height: 400px;
     }
-} */
+
+    .WEB
+    {
+        font-size: 1.1em;
+    }
+} 
 
 /* Mobile */
 
