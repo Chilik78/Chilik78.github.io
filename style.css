@@ -21,10 +21,10 @@
 
 .nav-list
 {
-padding: .5rem 1rem;
-width: auto;
-display:flex;
-justify-content:space-between;
+    padding: .5rem 1rem;
+    width: auto;
+    display:flex;
+    justify-content:space-between;
 }
 
 .nav-list li
@@ -1310,4 +1310,54 @@ justify-content:space-between;
     text-align: center;
     outline: none;
     width: 40em;
+}
+
+.attach-file-down
+{
+    width: 100%;
+    margin-top: 2em;
+}
+
+.text-attach-file
+{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    margin-left: -55em;
+}
+
+.text-attach-file:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.send-btn-down
+{
+    border-radius: 100px;
+    letter-spacing: 3px;
+    transition: .5s;
+    font-weight: 50;
+    font-size: 25px;
+    border-color: gray;
+    margin-left: -45em;
+    background-color: rgb(44, 43, 43);
+    color: gray;
+    border-style: solid;
+    margin-top: 1em;
+}
+
+.send-btn-down:hover
+{
+    cursor: pointer;
+    border-color: white;
+    color: black;
+    background-color: white;
+    transition: .5s;
+}
+
+@media(min-width:1920px)
+{
+    
 }
