@@ -837,7 +837,7 @@ justify-content:space-between;
 {
     .services
     {
-        height: 105vh;
+        height: 120vh;
     }
 
     .services-head
@@ -847,7 +847,7 @@ justify-content:space-between;
 
     .services-types
     {
-        height: 105vh;
+        height: 120vh;
     }
 }
 
@@ -922,7 +922,6 @@ justify-content:space-between;
         background-size: contain;
         background-repeat: no-repeat;
         width: 100%;
-        background-color: blueviolet;
     }
 
     .services-e-commerce
@@ -931,17 +930,14 @@ justify-content:space-between;
         background-image: url(img/Mobile/E-COMMERCE-yslygi.jpg);
         background-size: contain;
         background-repeat:no-repeat;
-        background-color: blue;
     }
 
     .services-mobile
     {
-        margin-top: -1em;
         height: 35vh;
         background-image: url(img/Mobile/MOBILE-yslygi.jpg);
         background-size: contain;
         background-repeat: no-repeat;
-        background-color: brown;
     }
 
     #uslugi-mobile
