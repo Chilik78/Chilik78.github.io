@@ -293,8 +293,7 @@ justify-content:space-between;
 
     .bi-x
     {
-        /* margin-right: 36.5em; */
-        margin-right: 0em;
+        margin-right: 16em;
     }
 
     @keyframes move-left 
