@@ -155,7 +155,7 @@ function openMenu()
 {
   navList.style.animation= "openMenuList 2s ease-out 0s"
   navList.style.flexDirection= "column";
-  menuBtn.style.animation= "rotation 2s ease-out 0s"
+  menuBtn.style.animation= "rotation 1s ease-out 0s"
   isClose = false;
 }
 
@@ -163,7 +163,7 @@ function closeMenu()
 {
   navList.style.animation= "closeMenuList 1.5s ease-out 0s"
   navList.style.flexDirection= "row";
-  menuBtn.style.animation= "rotationBack 2s ease-out 0s"
+  menuBtn.style.animation= "rotationBack 1s ease-out 0s"
   isClose = true;
 }
 
