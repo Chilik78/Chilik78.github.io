@@ -14,13 +14,13 @@
     width: auto;
 }
 
-@media(max-width:400px)
+/* @media(max-width:400px)
 {
     .navigation
     {
         display: none;
     }
-}
+} */
 
 .nav-list
 {
@@ -89,6 +89,14 @@ justify-content:space-between;
     flex-direction: column;
     width: auto;
 }
+
+/* @media(max-width:400px)
+{
+    .content
+    {
+        margin-top: 30em;
+    }
+} */
 
 .btn--text
 {
@@ -166,16 +174,16 @@ justify-content:space-between;
     }
 }
 
-@media(max-width:400px)
+ @media(max-width:400px)
 {
-    .btn-zayavka
+     .btn-zayavka
     {
         margin: -120px 0 0 -300px;
         margin-top: -10rem;
         margin-left: -8.5rem;
         margin-bottom: 20rem;
-    }
-}
+    } 
+} 
 
 #buttonzaya
 {
@@ -694,6 +702,17 @@ justify-content:space-between;
 {
     font-size: 40px;
     font-weight: 300;
+}
+
+@media(max-width:400px)
+{
+    .About-team
+    {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
 }
 
 /* Проект */
