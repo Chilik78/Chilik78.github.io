@@ -1381,7 +1381,7 @@
 
     .text-zayavka
     {
-        margin-top: 5vh;
+        margin-top: 8vh;
         font-size: 9px;
     }
 
@@ -1423,8 +1423,8 @@
 
     .text-attach-file
     {
-        font-size: 7px;
-        margin-left: -40em;
+        font-size: 8px;
+        margin-left: -34em;
     }
 
     .bi-paperclip-down
@@ -1437,8 +1437,9 @@
     .send-btn-down
     {
         margin-top: 0;
-        font-size: 7px;
+        font-size: 9px;
         letter-spacing: 1px;
-        margin-left: -40em;
+        margin-left: -31em;
+        border-width: 1px;
     }
 }
