@@ -43,7 +43,7 @@
     } 
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .menu-list
     {
@@ -174,7 +174,7 @@
     }
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .development
     {
@@ -221,7 +221,7 @@
     }
 }
 
- @media(max-width:400px)
+ @media(max-width: 576px)
 {
 
     .btn--text
@@ -263,7 +263,7 @@
     }
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 { 
     #buttonzaya
     {
@@ -343,7 +343,7 @@
     }   
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .Forma
     {
@@ -482,7 +482,7 @@
     }
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .send-application
     {
@@ -587,7 +587,7 @@
     }
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .send-btn
     {
@@ -640,7 +640,7 @@
     }
 }
 
- @media(max-width:400px)
+ @media(max-width: 576px)
 {
     .web-sites
     {
@@ -679,7 +679,7 @@
     }
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .mobile
     {
@@ -716,7 +716,7 @@
     }
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .support
     {
@@ -790,7 +790,7 @@
     }
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .About-team
     {
@@ -857,7 +857,7 @@
     }
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .Project
     {
@@ -927,7 +927,7 @@
     margin-top: 50vh;
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .services
     {
@@ -1007,7 +1007,7 @@
     margin-top: 38vh;
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .services-web
     {
@@ -1151,7 +1151,7 @@
     }
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .contacts
     {
@@ -1372,7 +1372,7 @@
     }
 }
 
-@media(max-width:400px)
+@media(max-width: 576px)
 {
     .statement
     {
